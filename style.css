@@ -1,0 +1,385 @@
+html {
+  max-width: 1060px;
+  min-height: 100%;
+  margin: 0 auto;
+  left: 1%;
+  right: 1%;
+  position: absolute;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bg.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#meni {
+  margin-top: 15px;
+  ;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .9);
+  border: 0.5px solid #FFC600;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: -5px;
+  padding-bottom: 5px;
+}
+
+#meni ul {
+  list-style-type: none;
+}
+
+#meni ul a {
+  font-family: sans-serif;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  list-style-type: none;
+  border-left: 1px solid #FFC600;
+}
+
+#meni a:hover {
+  color: #FFC600;
+}
+
+#meni a.active {
+  color: #FFC600;
+}
+
+#pretraga {
+  padding-left: 70px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-left: 1px solid #FFC600;
+}
+
+#pretraga:focus {
+  outline: none;
+}
+
+.login-form {
+  background: url(images/bgf.png) no-repeat 100% 0%;
+  background-size: 100%;
+  width: 45%;
+  margin: 9% auto 4% auto;
+  position: relative;
+}
+
+.login-form h1 {
+  text-align: left;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 7%;
+  left: 11%;
+  margin: 34px 0;
+}
+
+.login-form h2 a {
+  text-align: right;
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 9.5%;
+  right: 11%;
+  margin: 34px 0;
+}
+
+.upad {
+  padding: 32% 3em;
+}
+
+.upad li {
+  border: 1px solid #FFC600;
+  list-style: none;
+  margin-bottom: 16px;
+  width: 100%;
+  background: #FFC600;
+}
+
+.icon {
+  background: url(images/icons.png) no-repeat 0px 0px;
+  height: 40px;
+  width: 40px;
+  display: block;
+  float: left;
+  margin: 5px -11px 0px 0px
+}
+
+.user {
+  background: url(images/icons.png) no-repeat 7px 1px;
+}
+
+.lock {
+  background: url(images/icons.png) no-repeat -31px 2px;
+}
+
+.arrow {
+  background: url(images/icons.png) no-repeat -62px 11px;
+  position: absolute;
+}
+
+.username {
+  font-family: 'Open Sans', sans-serif;
+  width: 60%;
+  padding: 0.5em 2em 0.5em 1em;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+input[type="submit"] {
+  float: left;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 600;
+  color: #615F5F;
+  transition: 0.1s all;
+  -webkit-transition: 0.1s all;
+  -moz-transition: 0.1s all;
+  -o-transition: 0.1s all;
+  cursor: pointer;
+  outline: none;
+  padding: 15px 10px;
+  margin-top: 3px;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  width: 45%;
+  border: 1px solid #222;
+}
+
+input[type="submit"]:hover {
+  background: #FFC600;
+  border: 1px solid #FFC600;
+}
+
+.unos {
+  background: url(images/bgf.png) no-repeat 100% 0%;
+  background-size: 130%;
+  width: 50%;
+  margin-top: 5%;
+  margin-right: 12.5%;
+  position: relative;
+}
+
+.unos h1 {
+  text-align: left;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  margin: 34px 0;
+  float: left;
+}
+
+.unos {
+  position: absolute;
+  top: 9.5%;
+  right: 11%;
+}
+
+.unos li {
+  text-align: center;
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+}
+
+#dodavanje {
+  padding: 20% 3em;
+}
+
+.unos li {
+  border: 1px solid #FFC600;
+  border-radius: 5px;
+  ;
+  list-style: none;
+  margin-bottom: 16px;
+  width: 100%;
+  background: rgba(255, 198, 0, 0.8);
+  margin-right: 20px;
+}
+
+.unos1 {
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  padding: 0.5em 2em 0.5em 1em;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+button[type="submit"] {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #615F5F;
+  transition: 0.1s all;
+  -webkit-transition: 0.1s all;
+  -moz-transition: 0.1s all;
+  -o-transition: 0.1s all;
+  cursor: pointer;
+  outline: none;
+  padding: 15px 10px;
+  margin-top: 3px;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  width: 43%;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  ;
+}
+
+button[type="submit"]:hover {
+  background: #FFC600;
+  border: 1px solid #FFC600;
+}
+
+button[type="submit"] {
+  margin: 20px 14px;
+}
+
+button[type="submit"] {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  font-weight: 600;
+  margin-top: 19px;
+}
+
+#wrapper {
+  height: 750px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Proizvodjac {
+  background-color: rgba(255, 198, 0, 0.8);
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+.Model {
+  background-color: rgba(255, 198, 0, 0.8);
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+.Registracija {
+  background-color: rgba(255, 198, 0, 0.8);
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+.Vozac_JMBG {
+  background-color: rgba(255, 198, 0, 0.8);
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+.Rezultat {
+  width: 50%;
+  margin-top: 1.5%;
+  margin-right: 15%;
+  border-color: #FFC600;
+  text-align: left;
+  color: #000000;
+  font-size: 1.6em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  top: 25%;
+  left: 10%;
+  margin-left: 270px;
+  right: 11%;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  float: inside;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgba(255, 198, 0);
+}
+
+.tabelaPretraga {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 7%;
+  color: white;
+  text-align: center;
+}
+
+.tabelaPretraga th {
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1.5px solid black;
+  border-radius: 7px;
+  background-color: rgba(255, 198, 0, 0.8);
+}
+
+.tabelaPretraga td {
+  border: 0.5px solid black;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.copy-right {
+  position: absolute;
+  left: 4%;
+}
+
+.copy-right p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: 300px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Taxi</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+        type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet'
+        type='text/css'>
+
+</head>
+
+<body>
+    <div class="login-form">
+        <h1>Login</h1>
+        <form class="upad" action="obrada.php" method="post">
+            <li><input class="username" type="text" class="text" name="ime" value="Username" onfocus="this.value = '';"
+                    onblur="if (this.value == '') {
+                            this.value = 'Korisnicko ime';
+                        }"><a class=" icon user"></a></li>
+            <li><input class="username" type="password" value="Password" name="lozinka" onfocus="this.value = '';"
+                    onblur="if (this.value == '') {
+                            this.value = 'Lozinka';}"><a class=" icon lock"></a></li>
+            <div class="forgot">
+                <input class="username" type="submit" onclick="myFunction()" value="GO"> <a href="#"
+                    class=" icon arrow"></a> </h4>
+            </div>
+        </form>
+    </div>
+    <div class="copy-right">
+        <p>Designed and Developed by &copy; 2019 Nemanja Jovic</p>
+    </div>
+</body>
+
+</html>
